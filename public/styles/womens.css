@@ -1,0 +1,75 @@
+/* Override or Extend from main.css for womens.jade specific styles */
+
+/* Women's Header */
+.womens-header {
+    background-color: #FF69B4; /* A vibrant pink shade */
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.womens-header h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+.womens-header p {
+    font-size: 1.2em;
+}
+
+/* Women's Products */
+.womens-products .product-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 items per row */
+    gap: 30px;
+    margin-top: 20px;
+}
+
+.womens-products .product-item {
+    border: 1px solid #FFB6C1; /* A soft pink shade */
+    transition: box-shadow 0.3s;
+}
+
+.womens-products .product-item:hover {
+    box-shadow: 2px 2px 12px rgba(255, 105, 180, 0.3); /* Pink shadow on hover */
+}
+
+.womens-products .product-item img {
+    max-width: 100%;
+    transition: transform 0.3s;
+}
+
+.womens-products .product-item img:hover {
+    transform: rotate(-5deg); /* Slight rotate effect on hover */
+}
+
+.womens-products .product-item h3 {
+    margin-top: 10px;
+}
+
+.womens-products .product-item p {
+    margin-bottom: 10px;
+    color: #FF69B4; /* Vibrant pink color */
+}
+
+/* Shop More Section */
+.shop-more {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.shop-more p {
+    font-size: 1.4em;
+    margin-bottom: 20px;
+}
+
+.shop-more a {
+    display: inline-block;
+    margin: 0 10px;
+    color: #FF69B4; /* Vibrant pink color */
+    transition: underline 0.3s;
+}
+
+.shop-more a:hover {
+    text-decoration: underline; /* Underline effect on hover */
+}

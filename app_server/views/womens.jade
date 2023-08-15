@@ -1,0 +1,30 @@
+extends layout
+
+block prepend head
+  link(rel='stylesheet', href='/styles/womens.css')
+
+block content
+  section.womens-header
+    h1 Women's Collection
+    p Dive into our exclusive range of women's products.
+  
+  section.womens-products
+    ul.product-grid
+      li.product-item
+        img(src='/images/products/elegant.jpg', alt='Product 1 for Women')
+        h3 Elegant Dress
+        p Price: $149.99
+      li.product-item
+        img(src='/images/products/bag.jpg', alt='Product 2 for Women')
+        h3 Stylish Handbag
+        p Price: $89.99
+      li.product-item
+        img(src='/images/products/watch.jpg', alt='Product 3 for Women')
+        h3 Watch
+        p Price: $49.99
+
+  section.shop-more
+    p Intrigued by our collection? Explore more from our catalog.
+    nav.other-collections
+      a(href='/mens') Men's Collection&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      a(href='/kids') Kids' Collection

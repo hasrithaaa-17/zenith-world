@@ -1,0 +1,75 @@
+/* Override or Extend from main.css for mens.jade specific styles */
+
+/* Men's Header */
+.mens-header {
+    background-color: #2E8B57; /* A deep green shade */
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.mens-header h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+.mens-header p {
+    font-size: 1.2em;
+}
+
+/* Men's Products */
+.mens-products .product-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 items per row */
+    gap: 30px;
+    margin-top: 20px;
+}
+
+.mens-products .product-item {
+    border: 1px solid #dcdcdc;
+    transition: transform 0.3s;
+}
+
+.mens-products .product-item:hover {
+    transform: scale(1.05); /* Slight zoom effect on hover */
+}
+
+.mens-products .product-item img {
+    max-width: 100%;
+    transition: opacity 0.3s;
+}
+
+.mens-products .product-item img:hover {
+    opacity: 0.8; /* Slight fade effect on hover */
+}
+
+.mens-products .product-item h3 {
+    margin-top: 10px;
+}
+
+.mens-products .product-item p {
+    margin-bottom: 10px;
+    color: #2E8B57; /* Deep green color */
+}
+
+/* Shop More Section */
+.shop-more {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.shop-more p {
+    font-size: 1.4em;
+    margin-bottom: 20px;
+}
+
+.shop-more a {
+    display: inline-block;
+    margin: 0 10px;
+    color: #2E8B57; /* Deep green color */
+    transition: text-shadow 0.3s;
+}
+
+.shop-more a:hover {
+    text-shadow: 1px 1px 2px #555; /* Slight text shadow on hover */
+}

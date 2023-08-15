@@ -1,0 +1,30 @@
+extends layout
+
+block prepend head
+  link(rel='stylesheet', href='/styles/mens.css')
+
+block content
+  section.mens-header
+    h1 Men's Collection
+    p Explore our curated selection of men's products.
+  
+  section.mens-products
+    ul.product-grid
+      li.product-item
+        img(src='/images/products/mensformal.jpg', alt='Product 1 for Men')
+        h3 Men's Formals
+        p Price: $199.99
+      li.product-item
+        img(src='/images/products/menwatch.jpg', alt='Product 2 for Men')
+        h3 Classic Watch
+        p Price: $199.99
+      li.product-item
+        img(src='/images/products/wallet.jpg', alt='Product 3 for Men')
+        h3 Leather Wallet
+        p Price: $49.99
+
+  section.shop-more
+    p Looking for more? Explore our other collections.
+    nav.other-collections
+      a(href='/womens') Women's Collection&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      a(href='/kids') Kids' Collection

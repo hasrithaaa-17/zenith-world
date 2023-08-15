@@ -1,0 +1,30 @@
+extends layout
+
+block prepend head
+  link(rel='stylesheet', href='/styles/kids.css')
+
+block content
+  section.kids-header
+    h1 Kids' Collection
+    p Discover fun and exciting products for the little ones.
+  
+  section.kids-products
+    ul.product-grid
+      li.product-item
+        img(src='/images/products/kidscombo.jpg', alt='Product 1 for Kids')
+        h3 Kids Combo Set
+        p Price: $14.99
+      li.product-item
+        img(src='/images/products/robo.jpg', alt='Product 2 for Kids')
+        h3 Toy Robot
+        p Price: $24.99
+      li.product-item
+        img(src='/images/products/puzzle.jpg', alt='Product 3 for Kids')
+        h3 Barbie Doll
+        p Price: $14.99
+
+  section.shop-more
+    p Want to explore more? Check out our other collections.
+    nav.other-collections
+      a(href='/mens') Men's Collection&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      a(href='/womens') Women's Collection

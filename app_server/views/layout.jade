@@ -1,0 +1,39 @@
+doctype html
+html
+  head
+    title Zenith World
+    link(rel='stylesheet', href='/styles/main.css')
+    // You can add more stylesheets or meta tags here as needed
+
+  body
+    header.site-header
+      h1 Zenith World 
+    header
+      nav
+        ul
+          li
+            a(href='/') Home
+          li
+            a(href='/mens') Mens
+          li
+            a(href='/womens') Womens
+          li
+            a(href='/kids') Kids
+          li
+            a(href='/cart') Cart
+          li
+            a(href='/about') About
+          li
+            a(href='/login') Login
+          li
+            a(href='/register') Register
+
+    // Main content block that can be overridden by individual pages
+    block content
+
+    footer
+      p Copyright © 2023 Zenith World
+
+    // Add shared scripts here, if any
+    script(src='/scripts/app.js')
+

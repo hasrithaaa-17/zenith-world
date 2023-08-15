@@ -1,0 +1,77 @@
+/* Override or Extend from main.css for kids.jade specific styles */
+
+/* Kids' Header */
+.kids-header {
+    background-color: #FFD700; /* A golden-yellow shade */
+    color: #000; /* Black text for readability */
+    text-align: center;
+    padding: 20px 0;
+}
+
+.kids-header h1 {
+    margin: 0;
+    font-size: 2.5em;
+    font-weight: bold;
+}
+
+.kids-header p {
+    font-size: 1.3em;
+}
+
+/* Kids' Products */
+.kids-products .product-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 items per row */
+    gap: 30px;
+    margin-top: 20px;
+}
+
+.kids-products .product-item {
+    border: 2px dashed #FF6347; /* Tomato colored dashed border */
+    transition: background-color 0.3s;
+}
+
+.kids-products .product-item:hover {
+    background-color: #FFEB3B; /* A light yellow background on hover */
+}
+
+.kids-products .product-item img {
+    max-width: 100%;
+    transition: scale 0.3s;
+}
+
+.kids-products .product-item img:hover {
+    transform: scale(1.1); /* Slight scale effect on hover */
+}
+
+.kids-products .product-item h3 {
+    margin-top: 10px;
+    color: #FF6347; /* Tomato color */
+}
+
+.kids-products .product-item p {
+    margin-bottom: 10px;
+    color: #228B22; /* Forest green color */
+}
+
+/* Shop More Section */
+.shop-more {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.shop-more p {
+    font-size: 1.4em;
+    margin-bottom: 20px;
+}
+
+.shop-more a {
+    display: inline-block;
+    margin: 0 10px;
+    color: #228B22; /* Forest green color */
+    transition: color 0.3s;
+}
+
+.shop-more a:hover {
+    color: #FF6347; /* Change to tomato color on hover */
+}

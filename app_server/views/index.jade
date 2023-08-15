@@ -1,0 +1,32 @@
+extends layout
+
+block content
+  section.banner
+    img.image-container(src='/images/banners/promo.jpg', alt='Promotional Banner')
+    h1 Welcome to Zenith World
+    p Discover our exclusive range of products!
+
+  section.featured-products
+    h2 Featured Products
+    ul.product-grid
+      li.product-item
+        img(src='/images/products/mensformal.jpg', alt='Product 1')
+        h3 Men's Formals
+        p Price: $199.99
+        a(href='/mens') More Men's Products...
+      li.product-item
+        img(src='/images/products/watch.jpg', alt='Product 2')
+        h3 Classic Watch
+        p Price: $49.99
+        a(href='/womens') More Women's Products...
+      li.product-item
+        img(src='/images/products/puzzle.jpg', alt='Product 3')
+        h3 Barbie Doll
+        p Price: $14.99
+        a(href='/kids') More Kids Products...
+
+  section.about-intro
+    h2 About Us
+    p We at Zenith World are committed to delivering the best online shopping experience. From fashion to electronics, discover a vast variety of items curated just for you.
+    a(href='/about') Learn More About Us
+

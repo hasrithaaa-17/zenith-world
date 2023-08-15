@@ -1,0 +1,250 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #fed2a9;
+}
+
+h1, h2, h3 {
+    margin-top: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+/* Header and Navigation */
+header {
+    background: #1d020f;
+    color: white;
+    padding: 1px 0;
+    text-align: center;
+    margin-top: -10px;
+    padding-left: 50px;
+}
+
+header nav ul {
+    padding: 0 0 0 0;
+    list-style-type: none;
+    overflow: hidden;
+}
+
+header nav ul li {
+    float: left;
+    width: 6%; /* Roughly divides the navbar into 7 equal parts */
+    text-align: center;
+}
+
+header nav ul li a {
+    display: block;
+    padding-top: 0;
+    color: rgb(246, 246, 199);
+    font-weight: bolder;
+}
+
+/* Forms */
+.input-group {
+    margin: 10px 0;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"], 
+input[type="email"], 
+input[type="password"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+}
+
+button {
+    padding: 10px 15px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+/* Product Listing */
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.product-item {
+    padding: 10px;
+    text-align: center;
+}
+
+.product-item img {
+    max-width: 100%;
+}
+
+/* Reviews */
+.review-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.review-item h3 {
+    margin-top: 0;
+}
+
+hr {
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 10px 0;
+}
+
+.site-header {
+    background-color: #180e0e;
+    color: #fff;
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 30px;
+    padding-bottom: 0;
+}
+
+body {
+    margin: 0;
+}
+
+header > *, .site-header > * {
+    margin: 0;
+    padding: 0;
+}
+
+.image-container {
+    width: 1300px;
+    height: 300px;
+    overflow: hidden;
+}
+
+.input-group {
+    width: 50%;
+}
+
+.login-form,.login-header,.register-form,.register-header {
+    padding-left: 30px;
+}
+
+.about-page {
+    text-align: center;
+}
+
+.about-page h1 {
+    font-family: 'Georgia', serif;
+    color: #333;
+    font-size: 50px;
+}
+
+.about-page h2{
+    margin-bottom: 0;
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.about-page h3{
+    margin-bottom: 0;
+}
+
+.about-page p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin:0;
+    padding: 0;
+    margin-bottom: 2;
+}
+
+.company-history,.mission-values,.our-team,.contact-us {
+    margin-left: 50px;    /* Adjust value as needed */
+    margin-right: 50px;   /* Adjust value as needed */
+}
+
+.team-members {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding:0;
+    margin:0;
+}
+
+.member {
+    text-align: center;  /* centers the member name below the image */
+}
+
+.kids-products,.shop-more{
+    padding-left: 50px;
+    padding-right:50px;
+}
+
+.womens-products,.shop-more{
+    padding-left: 50px;
+    padding-right:50px;
+}
+
+.mens-products,.shop-more{
+    padding-left: 50px;
+    padding-right:50px;
+}
+
+.mens-header,.womens-header,.kids-header{
+    text-align: center;
+    font-size: larger;
+    padding:0;
+    margin:0;
+}
+
+.other-collections{
+    font-weight: bold;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.banner {
+    text-align: center;
+}
+
+.banner h1 {
+    font-size: 50px;
+    padding:0;
+    margin:0;
+}
+.banner p {
+    font-size: 30px;
+    padding:0;
+    margin:0;
+    padding-bottom: 50px;
+}
+
+.featured-products h2{
+    text-align: center;
+}
+
+.about-intro{
+    padding-left:50px;
+}
+
+footer {
+    padding-left:50px;
+}
